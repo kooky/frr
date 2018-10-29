@@ -11,6 +11,12 @@ Add packages:
     sudo apt-get install git autoconf automake libtool make \
       libreadline-dev texinfo libjson-c-dev pkg-config bison flex \
       python-pip libc-ares-dev python3-dev python-pytest python3-sphinx
+      
+If you want to build the PDF documentation, add:
+
+::  
+     sudo apt-get install texlive-latex-recommended texlive-generic-extra \
+       texlive-latex-base
 
 Get FRR, compile it and install it (from Git)
 ---------------------------------------------
